@@ -1,11 +1,15 @@
 module.exports = {
-  purge: ["./*.html"],
-  darkMode: false, // or 'media' or 'class'
-  theme: {
-    extend: {},
-  },
-  variants: {
-    extend: {},
-  },
-  plugins: [],
+    mode: 'jit',
+    purge: ["./**/*.html"],
+    theme: {
+        extend: {
+            fontFamily: {
+                heading: ['Otomanopee One'],
+            }
+        },
+    },
+    variants: {
+        extend: {},
+    },
+    plugins: [],
 };
